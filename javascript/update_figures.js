@@ -6,6 +6,15 @@ function update_figure_2() {
   image.src = filename;
 }
 
+
+// Figure 2b interactively loads static images, stored locally
+function update_figure_2b() {
+  var period = document.getElementById("Figure_2b_period_slider").value;
+  var filename = "./images/miCube_exploded_animation/miCube-" + period + ".bmp";
+  var image = document.getElementById("Figure_2b_image");
+  image.src = filename;
+}
+
 // Figure 3 interactively loads static images.
 // Check if our big images are available locally or remotely:
 var big_image_directory = "./../big_images";
