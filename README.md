@@ -1,4 +1,4 @@
-# A template for writing scientific papers
+# A template for writing scientific papers - KM
 <a href="https://doi.org/10.5281/zenodo.231328"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.231328.svg" alt="DOI"></a>
 
 View it in action here:
