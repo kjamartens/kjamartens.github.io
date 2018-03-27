@@ -6,4 +6,13 @@ function loadExplodedImages() {
 		images[i].src = imsrc;
     }
 }
-//
+
+var imagesr = [];
+function loadRotatedImages() {
+    for (var i = 0; i < 50; i++) {
+        imagesr[i] = new Image();
+		var imsrc = './images/miCube_rotated_animation/smallSize/rotated_${i}.png';
+		imagesr[i].src = imsrc;
+    }
+}
+
