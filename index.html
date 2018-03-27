@@ -104,24 +104,13 @@ The real text begins here.
 
 <figure id="Figure_exploded">
 <img src="./images/miCube_exploded_animation/smallSize/exploded_0.png"
- alt="Figure Exploded" id="Figure_exploded_image">
+ alt="Figure Exploded" id="Figure_exploded_image" onload="loadExplodedImages()">
 <table class="figure_controls">
   <tr>
   <td><div class="slidecontainer">
   <input type="range" min="0" max="20" value="0" class="slider" id="Figure_exploded_period_slider" oninput="update_figure_exploded()"></td>
   </tr>
 </div>
-
-<script>
-var slider = document.getElementById("myRange");
-var output = document.getElementById("demo");
-output.innerHTML = slider.value;
-update_figure_exploded();
-
-slider.oninput = function() {
-  output.innerHTML = this.value;
-}
-</script>
 </td><td>(change this to adjust the exploded view of the miCube)</td>
     </tr>
 </table>
@@ -141,16 +130,6 @@ slider.oninput = function() {
   </tr>
 </div>
 
-<script>
-var slider = document.getElementById("myRange");
-var output = document.getElementById("demo");
-output.innerHTML = slider.value;
-update_figure_exploded();
-
-slider.oninput = function() {
-  output.innerHTML = this.value;
-}
-</script>
 </td><td>(change this to rotate the miCube)</td>
     </tr>
 </table>
