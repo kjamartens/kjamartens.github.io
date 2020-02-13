@@ -78,7 +78,7 @@ jQuery(document).ready(function($){
 	initFlexSlider();
 
 /*-----------SCROLLTO INIT-------------*/
-        function initLocalScroll() {
+        /*function initLocalScroll() {
                 
 		jQuery('ul.main-navigation, ul.mobile-navigation').localScroll({
 			offset: -112,
@@ -88,7 +88,7 @@ jQuery(document).ready(function($){
 
 
         }
-        initLocalScroll();
+        initLocalScroll();*/
 	
 /*-----------PARALLAX INIT-------------*/
 	function initParallax() {
@@ -117,7 +117,7 @@ function niceScrollInit() {
 	});
 }
 
-niceScrollInit();
+/*niceScrollInit();*/
 	
 /*-----------SUPERFISH INIT-------------*/
 

@@ -6,8 +6,36 @@ http://www.templatemo.com/tm-432-impressum
 
 */
 
+
 @import url(http://fonts.googleapis.com/css?family=Hammersmith+One);
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,700italic,400,700,600);
+
+.main-nav2{
+	  padding: 0;
+  margin: 0;
+  list-style: none;
+  list-style-image: none;
+  width: 100%;
+  text-align: right;
+}
+.main-nav2 li {
+  display: inline-block;
+  margin: 0 0 0 30px;
+}
+.main-nav2 li a {
+  display: block;
+  font-size: 15px;
+  line-height: 40px;
+  color: #555555;
+}
+.main-nav2 li a:hover {
+  color: #e04d47;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
 .mobile-nav ul, .main-navigation, .contact-info ul, .team-overlay .team-social-icons, .folio-filters {
   padding: 0;
   margin: 0;
@@ -98,9 +126,9 @@ body {
   font-family: "Open Sans", Helvetica, Arial, Heveltica Neue, sans-serif;
   -webkit-font-smoothing: antialiased;
 }
-
+/*
 body::-webkit-scrollbar {
-  width: 5px;
+  width: 15px;
   height: 5px;
 }
 
@@ -110,12 +138,12 @@ body::-webkit-scrollbar-track {
 
 body::-webkit-scrollbar-thumb {
   background-color: #e04d47;
-  border-radius: 5px;
+  border-radius: 2px;
 }
 
 body::-webkit-scrollbar-corner {
   background-color: #000;
-}
+}*/
 
 ::-moz-selection {
   background: #e04d47;
@@ -475,7 +503,7 @@ label {
 .content-section {
   position: relative;
   z-index: 10;
-  padding: 100px 0 90px 0;
+  padding: 125px 0 90px 0;
 }
 .content-section h3 {
   text-transform: uppercase;
