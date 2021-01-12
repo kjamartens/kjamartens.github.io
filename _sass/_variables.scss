@@ -58,7 +58,7 @@ $background-color           : #fff;
 $code-background-color      : #fafafa;
 $code-background-color-dark : $light-gray;
 $text-color                 : $dark-gray;
-$border-color               : #070085; //$lighter-gray;
+$border-color               : $lighter-gray; //Below Masthead and around profile image
 
 $primary-color              : #7a8288;
 $success-color              : #62c462;
@@ -94,7 +94,7 @@ $link-color                 : $dark-gray;
 $link-color-hover           : mix(#000, $dark-gray, 25%);
 $link-color-visited         : mix(#fff, $dark-gray, 25%);
 $masthead-link-color        : $primary-color;
-$masthead-link-color-hover  : mix(#000, $primary-color, 25%);
+$masthead-link-color-hover  : #070085; //mix(#000, $primary-color, 25%);
 
 
 /*
