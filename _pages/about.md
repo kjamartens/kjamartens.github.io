@@ -18,5 +18,4 @@ image_sliders:
 
 <p align= "justify">
 pages/About - To be filled with info
-</div>
 <br>
