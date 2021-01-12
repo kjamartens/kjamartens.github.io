@@ -2,10 +2,10 @@
 title: 'Visualisation of dCas9 target search in vivo using an open-microscopy framework'
 collection: publications
 date: 2019-08-17
-venue: 
+venue: Nature Communications
 authors: 'Koen J. A. Martens, Sam P. B. van Beljouw, Simon van der Els, Jochem N. A. Vink, Sander Baas, George A. Vogelaar, Stan J. J. Brouns, Peter van Baarlen, Michiel Kleerebezem & Johannes Hohlbein'
 paperurl: 'https://www.nature.com/articles/s41467-019-11514-0'
-rgate: ''
+# rgate: ''
 tagline: 'Paper'
 ---
 
