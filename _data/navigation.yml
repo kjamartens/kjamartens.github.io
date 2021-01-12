@@ -1,0 +1,102 @@
+# main links links
+main:
+  - title: "News"
+    url: /news/
+
+  #- title: "Outreach"
+  #  url: /outreach/
+
+  - title: "Projects"
+    url: /projects/
+
+ # - title: "Team"
+ #   url: /team/
+
+  #- title: "Publications"
+  #  url: /publications/
+
+  #- title: "Talks & Posters"
+   # url: /talks/
+
+  #- title: "Gallery"
+  #  url: /gallery/
+
+  #- title: "Positions"
+  #  url: /positions/
+
+  #- title: "Contact"
+   # url: /contact/
+   
+#  - title: "Techniques"
+#    url: /techniques/
+
+#  - title: "Teaching"
+#    url: /teaching/
+
+Projs:
+  # - title:
+    # children:
+      # - title: "Project Overview"
+        # url: /projects/
+  - title: Main Research Topics
+    children:
+      - title: "Testing-sptFM"
+        url: /projects/sptFM/
+      # - title: "Cellular adhesion in 3D matrices"
+        # url: /projects/cell-adhesion/
+      # - title: "Organoids: models for cell communication"
+        # url: /projects/organoids/
+      # - title: "New drug delivery systems"
+        # url: /projects/DDS/
+      # - title: "Protein-protein Interactions"
+        # url: /projects/PPIs/
+      # - title: "Rheology at the micrometer scale"
+        # url: /projects/rheology/
+      # - title: "Polymer Reptation in 3D"
+        # url: /projects/reptation/
+
+  # - title: Research Networks
+    # children:
+      # - title: "SuperCol"
+        # url: /projects/SuperCol/
+      # - title: "OrganADVANCE"
+        # url: /projects/OrganADVANCE/
+
+  # - title: Other Collaborations
+    # children:
+      # - title: "Single cell manipulation by endoscopy"
+        # url: /projects/endoscopy/
+      # - title: "Imaging single HIV virions"
+        # url: /projects/HIV/
+      # - title: "Cell signalling: probes and methods"
+        # url: /projects/cell-signal/
+      # - title: "Correlative AFM and Fluorescence Microscopy"
+        # url: /projects/FluoAFM/
+
+
+# Tech:
+  # - title: Molecular Organization at the nanoscale
+    # children:
+      # - title: "Localization based super-resolution microscopy"
+        # url: /techniques/localization/
+      # - title: "SOFI: Stochastic Optical Fluctuation Imaging"
+        # url: /techniques/SOFI/
+      # - title: "STED: Stimulated Emission Depletion microscopy"
+        # url: /techniques/STED/
+
+  # - title: Molecular dynamics and protein interactions
+    # children:
+      # - title: "SPT: Single Particle Tracking"
+        # url: /techniques/SPT/
+      # - title: "RICS: Raster Imaging Correlation Spectroscopy"
+        # url: /techniques/RICS/
+      # - title: "FRET: Föster Energy Tranfer"
+        # url: /techniques/FRET/
+
+# Outreach:
+  # - title: Science Outreach
+    # children:
+      # - title: "The matrix supporting life"
+        # url: /mainoutreach/cellmech/
+      # - title: "Better ways to give medicines"
+        # url: /mainoutreach/drugdelivery/
