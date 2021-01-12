@@ -2,8 +2,6 @@
    Variables
    ========================================================================== */
 
-$accentcolourText: #070085;
-$accentcolourBackgrounds: #bebce3;
 
 /*
    Typography
@@ -49,6 +47,8 @@ $type-size-8                : 0.625em;  // ~10px
 /*
    Colors
    ========================================================================== */
+
+$accentcolourText           : #070085;
 
 $gray                       : #7a8288;
 $dark-gray                  : mix(#000, $gray, 40%);
