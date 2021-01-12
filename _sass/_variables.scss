@@ -2,6 +2,9 @@
    Variables
    ========================================================================== */
 
+$accentcolourText = #070085;
+$accentcolourBackgrounds = #bebce3;
+
 /*
    Typography
    ========================================================================== */
@@ -94,7 +97,7 @@ $link-color                 : $dark-gray;
 $link-color-hover           : mix(#000, $dark-gray, 25%);
 $link-color-visited         : mix(#fff, $dark-gray, 25%);
 $masthead-link-color        : $primary-color;
-$masthead-link-color-hover  : #070085; //mix(#000, $primary-color, 25%);
+$masthead-link-color-hover  : $accentcolourText; //mix(#000, $primary-color, 25%);
 
 
 /*
