@@ -2,7 +2,7 @@
 title: 'Evaluating single-particle tracking by photo-activation localization microscopy (sptPALM) in Lactococcus lactis'
 collection: publications
 date: 2019-03-07
-venue: Molecular Cell
+venue: Physical Biology
 authors: 'Sam P B van Beljouw, Simon van der Els, Koen J A Martens, Michiel Kleerebezem, Peter A Bron and Johannes Hohlbein'
 paperurl: 'https://iopscience.iop.org/article/10.1088/1478-3975/ab0162/meta'
 # rgate: ''
