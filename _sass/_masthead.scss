@@ -3,7 +3,11 @@
    ========================================================================== */
 
 .masthead {
-  background-color: #000;
+  //background-color: #000;
+  background-image: 'images/SiteBanner.png';
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-size: 100% auto;
   position: relative;
   border-bottom: 1px solid $border-color;
   //-webkit-animation: intro 0.3s both;
