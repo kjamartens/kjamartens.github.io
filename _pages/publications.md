@@ -7,7 +7,7 @@ author_profile: true
 {% include base_path %}
 
 You can find the complete publication list on <a href="https://scholar.google.com/citations?user=puEEfn8AAAAJ&hl=en">
-<span style="color:gray">my Google Scholar profile</span></a>.
+<u><span style="color:gray">my Google Scholar profile</span></u></a>.
 
 
 <ul>
