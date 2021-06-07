@@ -6,8 +6,8 @@ main:
   #- title: "Outreach"
   #  url: /outreach/
 
-  - title: "Projects"
-    url: /projects/
+  #- title: "Projects"
+  #  url: /projects/
 
  # - title: "Team"
  #   url: /team/
@@ -24,8 +24,8 @@ main:
   #- title: "Positions"
   #  url: /positions/
 
-  #- title: "Contact"
-   # url: /contact/
+  - title: "Contact"
+    url: /contact/
    
 #  - title: "Techniques"
 #    url: /techniques/
