@@ -10,7 +10,7 @@ image_sliders:
   - home
 ---
 <body align="left">
-<img src='/images/lettericon.png' style='width: 40%'>
+<!--<img src='/images/mainHeader.png' style='width: 40%'>-->
 
 {% include slider.html selector="home" %}
 <br>
