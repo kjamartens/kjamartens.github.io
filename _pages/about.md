@@ -17,5 +17,7 @@ image_sliders:
 <h1>Welcome!</h1>
 
 <p align= "justify">
-I am Koen J.A. Martens, a postdoc in the lab of Ulrike Endesfelder. Currently, I am at Carnegie Mellon University, Physics department, in Pittsburgh, USA, and from sept 1st 2021, I will be positioned at Bonn University, Institute for Microbiology and Biotechnology in Bonn, Germany.
+I am Koen J.A. Martens, a postdoc in the lab of Ulrike Endesfelder. I am excited to study biophysical processes in living cells with advanced single-molecule localization microscopy. I focus specifcally on dynamical protein interaction quantification in individual cells on the nanometer spatial scale and millisecond temporal scale. To this end, I have experience in computational quantitative single-molecule microscopy, microscope hardware development, and prokaryotic genomic manipulation.
+
+Currently, I am at Carnegie Mellon University, Physics department, in Pittsburgh, USA, and from sept 1st 2021, I will be positioned at Bonn University, Institute for Microbiology and Biotechnology in Bonn, Germany.
 <br>
