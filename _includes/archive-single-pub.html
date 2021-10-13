@@ -16,15 +16,15 @@
 
 	<table style="width:100%; border: none;"><tr>
 	<!--<td width="12%" style="border: none;"> <img src="/images/pub_phasor2_square.png"></td>-->
-	<td width="100%" style="border: none;">
-  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+	<td width="20%" style="border: none;">
     {% if post.teaser %}
       <div class="archive__item-teaser">
         <img src="{{ post.teaser }}" alt="">
       </div>
     {% endif %}
-
-
+	</td>
+	<td width = "80%" style="border: none;">
+	<article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
     <span style="font-size:1.05em; line-height: 0.1; font-weight:bold" class="archive__item-title" itemprop="headline">
       {% if post.link %}
         <a href="{{ post.link }}">{{ title }}</a> <a href="{{ base_path }}{{ post.url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
