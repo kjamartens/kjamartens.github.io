@@ -10,7 +10,7 @@ You can find the complete publication list on <a href="https://scholar.google.co
 <u><span style="color:gray">my Google Scholar profile</span></u></a>.
 
 
-<ul>
+<ul style="padding-inline-start: 0px;">
 {% for post in site.publications reversed %}
 
   {% assign currentdate = post.date | date: "%Y" %}
