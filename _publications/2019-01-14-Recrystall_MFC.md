@@ -8,6 +8,7 @@ Martens, Henk Van As, Adrian Voda, and John van Duynhoven'
 paperurl: 'https://pubs.acs.org/doi/abs/10.1021/acs.langmuir.8b03349'
 # rgate: ''
 tagline: 'Paper'
+teaser: 'imgs/2019-01-14-Recrystall_MFC.png'
 ---
 
 <h2> Abstract </h2>

@@ -7,6 +7,7 @@ authors: 'Koen J. A. Martens, Sam P. B. van Beljouw, Simon van der Els, Jochem N
 paperurl: 'https://www.nature.com/articles/s41467-019-11514-0'
 # rgate: ''
 tagline: 'Paper'
+teaser: 'img/2019-08-07-dCas9-MCDDA-miCube.png'
 ---
 
 <h2> Abstract </h2>
