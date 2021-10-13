@@ -7,6 +7,7 @@ authors: 'Jochem N.A. Vink, Koen J.A. Martens, Marnix Vlot, Rebecca E. McKenzie,
 paperurl: 'https://www.sciencedirect.com/science/article/pii/S1097276519307993'
 # rgate: ''
 tagline: 'Paper'
+teaser: 'imgs/2020-01-02-CascadeBrouns.png'
 ---
 
 <h2> Abstract </h2>
