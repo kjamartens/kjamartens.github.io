@@ -18,7 +18,7 @@
 	<!--<td width="12%" style="border: none;"> <img src="/images/pub_phasor2_square.png"></td>-->
 	<td width="100%" style="border: none;">
   <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
-    {% if include.type == "grid" and teaser %}
+    {% if post.teaser %}
       <div class="archive__item-teaser">
         <img src=
             "{{ teaser }}"
