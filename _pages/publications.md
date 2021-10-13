@@ -10,14 +10,14 @@ You can find the complete publication list on <a href="https://scholar.google.co
 <u><span style="color:gray">my Google Scholar profile</span></u></a>.
 
 
-<ul style="padding-inline-start: 0px;">
+<ul>
 {% for post in site.publications reversed %}
 
   {% assign currentdate = post.date | date: "%Y" %}
   {% if currentdate != date %}
     {% unless forloop.first %}</ul>{% endunless %}
 	<h2 id="y{{post.date | date: "%Y"}}"><span style="color:gray">{{ currentdate }}</span></h2>
-    <ul>
+    <ul style="padding-inline-start: 0px;">
     {% assign date = currentdate %}
   {% endif %}
   {% if post.authors contains 'Martens' %}
