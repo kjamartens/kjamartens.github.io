@@ -16,7 +16,9 @@ You can find the complete publication list on <a href="https://scholar.google.co
   {% assign currentdate = post.date | date: "%Y" %}
   {% if currentdate != date %}
     {% unless forloop.first %}</ul>{% endunless %}
-	#<h2 id="y{{post.date | date: "%Y"}}"><span style="color:gray">{{ currentdate }}</span></h2>
+	<!--
+	<h2 id="y{{post.date | date: "%Y"}}"><span style="color:gray">{{ currentdate }}</span></h2>
+	-->
     <ul style="padding-inline-start: 0px;">
     {% assign date = currentdate %}
   {% endif %}
