@@ -2,7 +2,7 @@
 title: 'Raw data to results: a hands-on introduction and overview of computational analysis for single-molecule localization microscopy'
 collection: publications
 date: 2021-12-28
-venue: Methods
+venue: Frontiers in Bioinformatics
 authors: 'Koen J.A. Martens, Bartosz Turkowyd, Ulrike Endesfelder'
 paperurl: 'https://www.frontiersin.org/articles/10.3389/fbinf.2021.817254'
 # rgate: 'https://www.researchgate.net/publication/343375517_Integrating_engineered_point_spread_functions_into_the_phasor-based_single-molecule_localization_microscopy_framework'
