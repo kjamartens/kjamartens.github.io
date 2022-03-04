@@ -1,6 +1,6 @@
 /* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
 
-particlesJS('main',
+particlesJS('mainTEMPREM',
   {
   "particles": {
     "number": {
