@@ -14,13 +14,14 @@ layout: compress
   </head>
 
   <body>
-  <!--V4-->
-	<div id="particles-js">
+  <!--V5-->
 
     {% include browser-upgrade.html %}
     {% include masthead.html %}
 
+	<div id="particles-js">
     {{ content }}
+	</div>
 
     </script>
 
@@ -33,9 +34,8 @@ layout: compress
 
     {% include scripts.html %}
     {% include slider_scripts.html %}
-</div>
 	<script src="{{ base_path }}\assets\js\particles\particles.js"></script>
-	<script src="{{ base_path }}\assets\js\_main.js"></script>
+	<script src="{{ base_path }}\assets\js\particles\app.js"></script>
   </body>
 </html>
 
