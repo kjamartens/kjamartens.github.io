@@ -1,6 +1,6 @@
 /* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
 
-particlesJS('Moving_BG',
+particlesJS('Moving_BG_DISABLED ',
   {
   "particles": {
     "number": {

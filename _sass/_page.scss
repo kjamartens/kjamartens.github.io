@@ -6,6 +6,10 @@
   background-color: transparent;
 }
 
+.particles-js-canvas-el{
+  position: fixed;
+}
+
 #main {
   @include container;
   @include clearfix;
