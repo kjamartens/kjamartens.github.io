@@ -8,6 +8,7 @@ paperurl: 'https://www.frontiersin.org/articles/10.3389/fbinf.2021.817254'
 # rgate: 'https://www.researchgate.net/publication/343375517_Integrating_engineered_point_spread_functions_into_the_phasor-based_single-molecule_localization_microscopy_framework'
 tagline: 'Methods'
 teaser: 'imgs/codeTutorial_2021.png'
+doi: '10.3389/fbinf.2021.817254'
 ---
 
 <h2> Abstract </h2>

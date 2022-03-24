@@ -59,9 +59,11 @@
 <br>
   </article>
   </td>
-  
+
   <td width="12%" style="border: none;">
-        <div data-badge-type="donut" data-doi="10.1038/nature.2014.14583" data-hide-no-mentions="true" class="altmetric-embed"></div>
+    {% if post.doi %}
+        <div data-badge-popover="right" data-badge-type="donut" data-doi={{ post.doi }} data-hide-no-mentions="true" class="altmetric-embed"></div>
+    {% endif}
   </td> <!-- e -->
 
 
