@@ -3,12 +3,13 @@ title: 'Manipulation of Recrystallization and Network Formation of Oil-Dispersed
 collection: publications
 date: 2019-01-14
 venue: Langmuir
-authors: 'Tatiana Nikolaeva, Ruud den Adel, Ruud van der Sman, Koen J. A. 
+authors: 'Tatiana Nikolaeva, Ruud den Adel, Ruud van der Sman, Koen J. A.
 Martens, Henk Van As, Adrian Voda, and John van Duynhoven'
 paperurl: 'https://pubs.acs.org/doi/abs/10.1021/acs.langmuir.8b03349'
 # rgate: ''
 tagline: 'Paper'
 teaser: 'imgs/2019-01-14-Recrystall_MFC.png'
+doi: '10.1021/acs.langmuir.8b03349'
 ---
 
 <h2> Abstract </h2>

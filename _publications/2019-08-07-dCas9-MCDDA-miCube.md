@@ -8,6 +8,7 @@ paperurl: 'https://www.nature.com/articles/s41467-019-11514-0'
 # rgate: ''
 tagline: 'Paper'
 teaser: 'imgs/2019-08-07-dCas9-MCDDA-miCube.png'
+doi: '10.1038/s41467-019-11514-0'
 ---
 
 <h2> Abstract </h2>

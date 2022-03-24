@@ -8,6 +8,7 @@ paperurl: 'https://iopscience.iop.org/article/10.1088/1478-3975/ab0162/meta'
 # rgate: ''
 tagline: 'Paper'
 teaser: 'imgs/2019-03-07-sptPALMlactis.png'
+doi: '10.1088/1478-3975/ab0162'
 ---
 
 <h2> Abstract </h2>
