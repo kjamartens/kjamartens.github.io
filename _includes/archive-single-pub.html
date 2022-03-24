@@ -60,17 +60,17 @@
   </article>
   </td>
 
-  <td width="20%" style="border: none;">
+  <td width="10%" style="border: none;">
     <!--VersionwithIFDOI-->
     {% if post.doi %}
-      <td>
         <div data-badge-popover="right" data-badge-type="donut" data-doi="{{ post.doi }}" data-hide-no-mentions="true" class="altmetric-embed"></div>
-      </td>
-      <td>
-        <span class="__dimensions_badge_embed__" data-doi="{{ post.doi }}" data-style="small_circle"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
-      </td>
     {% endif %}
-  </td> <!-- e -->
+  </td>
+  <td width="10%" style="border: none;">
+  {% if post.doi %}
+      <span class="__dimensions_badge_embed__" data-doi="{{ post.doi }}" data-style="small_circle"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+  {% endif %}
+  </td>
 
 
 </tr></table>
