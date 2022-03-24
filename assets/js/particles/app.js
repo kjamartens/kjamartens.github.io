@@ -1,6 +1,6 @@
 /* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
 
-particlesJS('mainTEMPREM',
+particlesJS('Moving_BG',
   {
   "particles": {
     "number": {
