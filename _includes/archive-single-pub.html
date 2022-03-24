@@ -23,7 +23,7 @@
       </div>
     {% endif %}
 	</td> <!-- e -->
-	<td width="88%" style="border: none;">
+	<td width="66%" style="border: none;">
 	<article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
     <span style="font-size:1.05em; line-height: 0.1; font-weight:bold" class="archive__item-title" itemprop="headline">
       {% if post.link %}
@@ -55,9 +55,15 @@
     {% if post.tagline %}
     <span style="font-size:0.85em; line-height: 0.5;"><i>{{ post.tagline }}</i></span><br>
     {% endif %}
-	
-<br>
 
+<br>
   </article>
-  </td></tr></table>
+  </td>
+  
+  <td width="12%" style="border: none;">
+        <div data-badge-type="donut" data-doi="10.1038/nature.2014.14583" data-hide-no-mentions="true" class="altmetric-embed"></div>
+  </td> <!-- e -->
+
+
+</tr></table>
 </div>
