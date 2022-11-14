@@ -25,6 +25,9 @@ You can find the complete publication list on <a href="https://scholar.google.co
   {% if post.authors contains 'Martens' %}
     {% include archive-single-pub.html %}
   {% endif %}
+  {% if post.authors contains 'Martens*' %}
+    {% include archive-single-pub.html %}
+  {% endif %}
   {% if forloop.last %}</ul>{% endif %}
 
 {% endfor %}

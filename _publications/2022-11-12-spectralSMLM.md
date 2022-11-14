@@ -2,7 +2,7 @@
 title: 'Enabling Spectrally Resolved Single-Molecule Localization Microscopy at High Emitter Densities
 date: 2022-10-21
 venue: Nano Letters
-authors: 'Koen J.A. Martens *, Martijn Gobes, Emmanouil Archontakis, Roger R. Brillas, Niels Zijlstra, Lorenzo Albertazzi, and Johannes Hohlbein*'
+authors: 'Koen J.A. Martens*, Martijn Gobes, Emmanouil Archontakis, Roger R. Brillas, Niels Zijlstra, Lorenzo Albertazzi, and Johannes Hohlbein*'
 paperurl: 'https://pubs.acs.org/doi/full/10.1021/acs.nanolett.2c03140'
 # rgate: ''
 tagline: 'Methods'
