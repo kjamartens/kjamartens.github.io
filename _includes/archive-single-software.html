@@ -18,38 +18,42 @@
 	<table style="width:100%; border: none;"><tr>
 	<td width="100%" style="border: none;">
 	<article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
-    <span style="font-size:1.5em; line-height: 0.1; font-weight:bold">
+    <span style="font-size:1.5em; line-height: 1.15; font-weight:bold">
 		<span style="color:#494E52">{{ title }}</span>
     </span>
 
 	{% if post.abstract %}
-	<br>
-	<span style="font-size:1.3em; line-height: 0.1">
+	<p>
+	<span style="font-size:1.2em; line-height: 1.15">
 		{{ post.abstract }}
 	</span>
+	</p>
 	{% endif %}
 	
 	{% if post.installation_instructions %}
-	<br>
-	<span style="font-size:1.1em; line-height: 0.1">
+	<p>
+	<span style="font-size:1.2em; line-height: 1.15">
 		<b>Installation/usage instructions:</b><br>
 		{{ post.installation_instructions }}
 	</span>
+	</p>
 	{% endif %}
 
 	{% if post.papercite %}
-	<br>
-	<span style="font-size:1.1em; line-height: 0.1">
+	<p>
+	<span style="font-size:1.1em; line-height: 1.15">
 		<b>Please cite the following paper when using this software:</b><br>
 		<a href="doi.org/ {{ post.doi }} "> {{ post.papercite }}</a>
 	</span>
+	</p>
 	{% endif %}
 	
 	{% if post.github %}
-	<br>
-	<span style="font-size:0.8em; line-height: 0.1">
+	<p>
+	<span style="font-size:0.9em; line-height: 1.15">
 		<b>Source code:</b><a href=" {{ post.github }}" > {{ post.github }}</a>
 	</span>
+	</p>
 	{% endif %}
 
 <br>
