@@ -23,10 +23,16 @@
     </span>
 
 	{% if post.abstract %}
-	<p>
+	<p style="text-indent: 20px;">
 	<span style="font-size:1.2em; line-height: 1.15">
 		{{ post.abstract }}
 	</span>
+	{% if post.github %}
+	<br>
+	<span style="font-size:0.9em; line-height: 1.15">
+		<b>Source code:</b><a href=" {{ post.github }}" > {{ post.github }}</a>
+	</span>
+	{% endif %}
 	</p>
 	{% endif %}
 	
@@ -34,7 +40,9 @@
 	<p>
 	<span style="font-size:1.2em; line-height: 1.15">
 		<b>Installation/usage instructions:</b><br>
+		<p style="text-indent: 20px;">
 		{{ post.installation_instructions }}
+		</p>
 	</span>
 	</p>
 	{% endif %}
@@ -43,18 +51,14 @@
 	<p>
 	<span style="font-size:1.1em; line-height: 1.15">
 		<b>Please cite the following paper when using this software:</b><br>
-		<a href="doi.org/ {{ post.doi }} "> {{ post.papercite }}</a>
+		<p style="text-indent: 20px;">
+		<a href="http://www.doi.org/ {{ post.doi }} "> {{ post.papercite }}</a>
+		</p>
 	</span>
 	</p>
 	{% endif %}
 	
-	{% if post.github %}
-	<p>
-	<span style="font-size:0.9em; line-height: 1.15">
-		<b>Source code:</b><a href=" {{ post.github }}" > {{ post.github }}</a>
-	</span>
-	</p>
-	{% endif %}
+	
 
 <br>
   </article>
