@@ -1,0 +1,56 @@
+{% include base_path %}
+
+{% if post.header.teaser %}
+  {% capture teaser %}{{ post.header.teaser }}{% endcapture %}
+{% else %}
+  {% assign teaser = site.teaser %}
+{% endif %}
+
+{% if post.id %}
+  {% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
+{% else %}
+  {% assign title = post.title %}
+{% endif %}
+
+<div class="{{ include.type | default: "list" }}__item">
+
+	<table style="width:100%; border: none;"><tr>
+	<td width="100%" style="border: none;">
+	<article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    <span style="font-size:1.15em; line-height: 0.1; font-weight:bold" class="archive__item-title" itemprop="headline">
+		<span style="color:#494E52">{{ title }}</span>
+    </span>
+
+	{% if post.abstract %}
+	<span style="font-size:0.9em; line-height: 0.1">
+		{{ post.abstract }}
+	</span>
+	{% endif %}
+	
+	{% if post.installation_instructions %}
+	<span style="font-size:0.7em; line-height: 0.1">
+		<b>Installation/usage instructions:</b><br>
+		{{ post.installation_instructions }}
+	</span>
+	{% endif %}
+
+	{% if post.papercite %}
+	<span style="font-size:0.7em; line-height: 0.1">
+		<b>Please cite the following paper when using this software:</b><br>
+		<a href="doi.org/" {{ post.doi }} > {{ post.papercite }}</a>
+	</span>
+	{% endif %}
+	
+	{% if post.github %}
+	<span style="font-size:0.5em; line-height: 0.1">
+		<b>Source code:</b><a href= {{ post.github }} > {{ post.github }}</a>
+	</span>
+	{% endif %}
+
+<br>
+  </article>
+  </td>
+
+
+</tr></table>
+</div>
