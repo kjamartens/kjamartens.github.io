@@ -23,7 +23,7 @@
     </span>
 
 	{% if post.abstract %}
-	<p style="text-indent: 20px;">
+	<p style="padding-left: 20px; padding-bottom: 0.5em;">
 	<span style="font-size:1.2em; line-height: 1.15">
 		{{ post.abstract }}
 	</span>
@@ -40,7 +40,7 @@
 	<p>
 	<span style="font-size:1.2em; line-height: 1.15">
 		<b>Installation/usage instructions:</b><br>
-		<p style="text-indent: 20px;">
+		<p style="padding-left: 20px; padding-top: 0.2em; padding-bottom: 0.5em;">
 		{{ post.installation_instructions }}
 		</p>
 	</span>
@@ -51,7 +51,7 @@
 	<p>
 	<span style="font-size:1.1em; line-height: 1.15">
 		<b>Please cite the following paper when using this software:</b><br>
-		<p style="text-indent: 20px;">
+		<p style="padding-left: 20px; padding-top: 0.2em; padding-bottom: 0.5em;">
 		<a href="http://www.doi.org/ {{ post.doi }} "> {{ post.papercite }}</a>
 		</p>
 	</span>
