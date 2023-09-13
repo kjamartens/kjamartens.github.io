@@ -1,17 +1,13 @@
 ---
 layout: archive
-title: "Publications"
-permalink: /publications/
+title: "Software"
+permalink: /software/
 author_profile: true
 ---
 {% include base_path %}
 
-You can find the complete publication list on <a href="https://scholar.google.com/citations?user=puEEfn8AAAAJ&hl=en">
-<u><span style="color:gray">my Google Scholar profile</span></u></a>.
-
-
 <ul>
-{% for post in site.publications reversed %}
+{% for post in site.software reversed %}
 
   {% assign currentdate = post.date | date: "%Y" %}
   {% if currentdate != date %}
@@ -22,12 +18,7 @@ You can find the complete publication list on <a href="https://scholar.google.co
     <ul style="padding-inline-start: 0px;">
     {% assign date = currentdate %}
   {% endif %}
-  {% if post.authors contains 'Martens' %}
-    {% include archive-single-pub.html %}
-  {% endif %}
-  {% if post.authors contains 'Martens*' %}
-    {% include archive-single-pub.html %}
-  {% endif %}
+  {% include archive-single-software.html %}
   {% if forloop.last %}</ul>{% endif %}
 
 {% endfor %}
