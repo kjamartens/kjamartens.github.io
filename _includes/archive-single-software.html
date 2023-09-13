@@ -18,12 +18,12 @@
 	<table style="width:100%; border: none;"><tr>
 	<td width="100%" style="border: none;">
 	<article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
-    <span style="font-size:1.5em; line-height: 1.15; font-weight:bold">
+    <span style="font-size:2.2em; line-height: 1.15; font-weight:bold">
 		<span style="color:#494E52">{{ title }}</span>
     </span>
 
 	{% if post.abstract %}
-	<p style="padding-left: 20px; margin-bottom: 0.5em; margin-top: 0em;">
+	<p style="padding-left: 20px; margin-bottom: 0.5em; margin-top: 0.5em;">
 	<span style="font-size:1.2em; line-height: 1.15">
 		{{ post.abstract }}
 	</span>
@@ -40,7 +40,7 @@
 	<p style="padding-left: 20px; margin-bottom: 0.0em; margin-top: 0em;">
 	<span style="font-size:1.2em; line-height: 1.15">
 		<b>Installation/usage instructions:</b><br>
-		<p style="padding-left: 40px; margin-bottom: 0.5em; margin-top: 0em;">
+		<p style="padding-left: 40px; margin-bottom: 0.25em; margin-top: 0em;">
 		{{ post.installation_instructions }}
 		</p>
 	</span>
@@ -51,8 +51,8 @@
 	<p style="padding-left: 20px; margin-bottom: 0.0em; margin-top: 0em;">
 	<span style="font-size:1.1em; line-height: 1.15">
 		<b>Please cite the following paper when using this software:</b><br>
-		<p style="padding-left: 40px; margin-bottom: 0.5em; margin-top: 0em;">
-		<a href="http://www.doi.org/ {{ post.doi }} "> {{ post.papercite }}</a>
+		<p style="padding-left: 40px; margin-bottom: 0.25em; margin-top: 0em;">
+		<a href="http://doi.org/{{ post.doi }}"> {{ post.papercite }}</a>
 		</p>
 	</span>
 	</p>
