@@ -17,7 +17,8 @@ image_sliders:
 <h1>Welcome!</h1>
 
 <p align= "justify">
-I am Koen J.A. Martens, a postdoc in the lab of Ulrike Endesfelder. I am excited to study biophysical processes in living cells with advanced single-molecule localization microscopy. I focus specifcally on dynamical protein interaction quantification in individual cells on the nanometer spatial scale and millisecond temporal scale. To this end, I have experience in computational quantitative single-molecule microscopy, microscope hardware development, and prokaryotic genomic manipulation.
-
-I am positioned at Bonn University, Institute for Microbiology and Biotechnology in Bonn, Germany.
-<br>
+I'm an experienced researcher and <a href="https://www.humboldt-foundation.de/en/">Alexander von Humboldt</a> PostDoc fellow, engaged in exploring the intricate world of biophysical processes within living prokaryotic cells using advanced single-molecule localization microscopy. My primary focus lies in the quantification of dynamic protein interactions at the nanometer spatial scale and millisecond temporal scale in individual cells.  My expertise spans computational quantitative single-molecule microscopy, microscope hardware development, and prokaryotic genomic manipulation.
+</p>
+<p align= "justify">
+Currently based at Bonn University's Institute for Microbiology and Biotechnology in Bonn, Germany, I am expanding our understanding of microbiological protein-DNA interactions, specifically DNA repair and CRISPR-Cas in <i>Hfx. volcanii</i>. I am also actively pushing boundaries in computational methodology for single-molecule microscop. Feel free to reach out if you have any questions or if you'd like to learn more about my research.
+</p>
