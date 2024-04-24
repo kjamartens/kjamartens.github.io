@@ -1,13 +1,13 @@
 ---
 title: 'Live-cell imaging reveals the trade-off between target search flexibility and efficiency for Cas9 and Cas12a'
-date: 2023-11-17
-venue: bioRxiv
-authors: 'Lorenzo Olivi, Cleo Bagchus, Victor Pool, Ezra Bekkering, Konstantin Speckner, Wen Wu, Koen J.A. Martens, John van der Oost, Raymond Staals, Johannes Hohlbein'
-paperurl: 'https://www.biorxiv.org/content/10.1101/2023.11.16.567366v1'
+date: 2024-04-22
+venue: Nucleic Acid Research
+authors: Lorenzo Olivi, Cleo Bagchus, Victor Pool, Ezra Bekkering, Konstantin Speckner, Hidde Offerhaus, Wen Y Wu, Martin Depken, Koen J.A. Martens, John van der Oost, Raymond H.J. Staals, Johannes Hohlbein'
+paperurl: 'https://academic.oup.com/nar/advance-article/doi/10.1093/nar/gkae283/7655788'
 # rgate: ''
 tagline: 'Paper'
 teaser: 'imgs/dCas12_2023.png'
-doi: '10.1101/2023.11.16.567366'
+doi: '10.1093/nar/gkae283'
 ---
 
 <h2> Abstract </h2>
