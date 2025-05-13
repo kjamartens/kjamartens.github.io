@@ -56,7 +56,9 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               : &twitter kjamartens
+  username               :
+bluesky:
+  username               : &bluesky kjamartens
 facebook:
   username               :
   app_id                 :
